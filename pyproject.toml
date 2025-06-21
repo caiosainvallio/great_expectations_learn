@@ -1,0 +1,16 @@
+[project]
+name = "great-expectations-learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "great-expectations>=1.5.2",
+    "numpy==1.26.4",
+    "pandas>=2.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
